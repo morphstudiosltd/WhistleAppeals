@@ -36,6 +36,6 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 
 
 function SendAppeal(){
-    mail("lewis.lt27@gmail.com", "New Ban Appeal", $_GET['punres'] . $_SERVER['REMOTE_ADDR']);
+    mail("example@mail.com", "New Ban Appeal", $_GET['punres'] . $_SERVER['REMOTE_ADDR']);
 }
 ?>
