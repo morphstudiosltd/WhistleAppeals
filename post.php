@@ -1,14 +1,11 @@
 <?php
 // Basic Mail API
-// Created By Whistle#8952
+// Created By Katy#0959
 // ^ Please Don't Remove Credits Lol took me some time to make this site,
 //   even tho 3hrs might not seem alot to someone.  Thanks :)
 
 
 
-
-
-//Tazhys Put Your Blacklisted IP's Here..
 $blacklisted_ips = array("");
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
     // collect value of input field
